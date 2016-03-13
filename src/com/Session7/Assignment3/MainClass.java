@@ -7,11 +7,15 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		/*
+		 * Main Objective : Handle NullPointer Exception. It will occur whenever a member is invoked with a null object
+		 * 
+		 * Program description :
 		 * 		Defining an interface and its implementation in two different classes in different way. Define an
 				interface having one method that takes an integer parameter. For this method, provide two
 				implementations: In the first one, just print the value and in the second one, print the square of the
 				number. Try to call both the versions.
 				
+			Condition when error occur
 				if we enter more than 2 or less than 1 than NullPointerException exception will be generate
 		 */
 		ExampleInterface example = null  ;
